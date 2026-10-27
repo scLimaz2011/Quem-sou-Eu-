@@ -1,0 +1,76 @@
+body {
+  background-image: url(itachi.jpg);
+    background-size: cover;
+
+h1, h2{
+text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+p {
+font-style: italic;
+}
+p {
+font-style: oblique;
+}
+}
+p {
+color: rgb(0, 0, 0);
+font-size: 25px;
+}
+h1 {
+color: rgb(70, 11, 11);
+font-size: 65px;
+}
+h2 {
+color: rgb(255, 255, 255);
+font-size: 35px;
+}
+body {
+    position: relative; 
+  }
+  
+  .profile-photo-container {
+    position: absolute;
+    top: 20px;               
+    right: 20px;           
+    width: 160px;          
+    height: 160px;        
+    border: 3px solid white;
+  }
+  
+  .profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .meubotão {
+    padding:10px 20px;
+
+    font-size:24px;
+
+    margin:10px;
+  }
+@font-face {
+  font-family: 'Cuadra Bold';
+  src: url('Cuadra\ Bold.otf') format('opentype');
+}
+
+
+h1 {
+  font-family: 'Cuadra Bold', sans-serif;
+}
+@font-face {
+  font-family: 'Fonte Maneira';
+  src: url('StoneserifstdMedium.otf') format('opentype');
+}
+
+
+h2, p {
+  font-family: 'Fonte Maneira', sans-serif;
+}
+.meubotão {
+  padding: 10px 20px;
+  font-size: 24px;
+  margin: 10px;
+  font-family: 'Fonte Maneira', sans-serif; /* Adiciona esta linha com a fonte que desejares */
+}
